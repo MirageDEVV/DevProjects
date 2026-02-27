@@ -1,0 +1,10 @@
+import random
+
+heads = 1
+tails = 0
+
+heads_or_tails = random.randint(tails, heads)
+if heads_or_tails == heads:
+    print("Heads")
+else:
+    print("Tails")
